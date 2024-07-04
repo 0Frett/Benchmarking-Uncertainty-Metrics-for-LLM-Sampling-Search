@@ -1,0 +1,1998 @@
+digraph {
+	139890863671616 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">3.46</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.25</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">3.24</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">2.83</font></td></tr>
+                </table>
+            > color=black]
+	139890863671616 -> 139890863671952
+	139890863671952 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">1.55</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.13</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">4.01</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">1.34</font></td></tr>
+                </table>
+            > color=black]
+	139890863671952 -> 139890863671232
+	139890863671232 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.20</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.01</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">9.01</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.72</font></td></tr>
+                </table>
+            > color=black]
+	139890863671232 -> 139890863670512
+	139890863670512 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">48</font></td></tr>
+                </table>
+            > color=red]
+	139890863671232 -> 139890863671664
+	139890863671664 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">16</font></td></tr>
+                </table>
+            > color=black]
+	139890863671232 -> 139890863673488
+	139890863673488 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">48</font></td></tr>
+                </table>
+            > color=red]
+	139890863671232 -> 139890863673248
+	139890863673248 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">48</font></td></tr>
+                </table>
+            > color=red]
+	139890863671232 -> 139890863673440
+	139890863673440 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">48</font></td></tr>
+                </table>
+            > color=red]
+	139890863671952 -> 139890863671376
+	139890863671376 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.22</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.01</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">8.90</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890863671376 -> 139890863672816
+	139890863672816 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">16</font></td></tr>
+                </table>
+            > color=black]
+	139890863671376 -> 139890863670896
+	139890863670896 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">16</font></td></tr>
+                </table>
+            > color=black]
+	139890863671376 -> 139890863675264
+	139890863675264 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">16</font></td></tr>
+                </table>
+            > color=black]
+	139890863671376 -> 139890863672768
+	139890863672768 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">16</font></td></tr>
+                </table>
+            > color=black]
+	139890863671376 -> 139890863670944
+	139890863670944 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">16</font></td></tr>
+                </table>
+            > color=black]
+	139890863671952 -> 139890863671712
+	139890863671712 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">1.25</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.12</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">4.91</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.72</font></td></tr>
+                </table>
+            > color=black]
+	139890863671712 -> 139890863674640
+	139890863674640 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.22</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.02</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">9.22</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890863674640 -> 139890863675312
+	139890863675312 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">16</font></td></tr>
+                </table>
+            > color=black]
+	139890863671712 -> 139890863676224
+	139890863676224 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">4</font></td></tr>
+                </table>
+            > color=black]
+	139890863671712 -> 139890863676368
+	139890863676368 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.21</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.02</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">9.01</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890863676368 -> 139890863676704
+	139890863676704 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">16</font></td></tr>
+                </table>
+            > color=black]
+	139890863671712 -> 139890863677616
+	139890863677616 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.17</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.02</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">9.59</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890863677616 -> 139890863677856
+	139890863677856 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">16</font></td></tr>
+                </table>
+            > color=black]
+	139890863671712 -> 139890863678384
+	139890863678384 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.21</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.02</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">9.52</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890863678384 -> 139890863678528
+	139890863678528 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">16</font></td></tr>
+                </table>
+            > color=black]
+	139890863671952 -> 139890863680256
+	139890863680256 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.97</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.06</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">7.23</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.72</font></td></tr>
+                </table>
+            > color=black]
+	139890863680256 -> 139890863680496
+	139890863680496 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.62</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.06</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">8.53</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890863680496 -> 139890863680544
+	139890863680544 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">48</font></td></tr>
+                </table>
+            > color=red]
+	139890863680256 -> 139890863681552
+	139890863681552 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.44</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.04</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">8.68</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890863681552 -> 139890863681600
+	139890863681600 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">48</font></td></tr>
+                </table>
+            > color=red]
+	139890863680256 -> 139890863682032
+	139890863682032 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">48</font></td></tr>
+                </table>
+            > color=red]
+	139890863680256 -> 139890863682464
+	139890863682464 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.42</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.04</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">7.90</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890863682464 -> 139890863682656
+	139890863682656 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">16</font></td></tr>
+                </table>
+            > color=black]
+	139890863680256 -> 139890863683472
+	139890863683472 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">48</font></td></tr>
+                </table>
+            > color=red]
+	139890863671952 -> 139890863684384
+	139890863684384 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">4</font></td></tr>
+                </table>
+            > color=black]
+	139890863671616 -> 139890863684960
+	139890863684960 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">1.31</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.10</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">4.22</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">2.53</font></td></tr>
+                </table>
+            > color=black]
+	139890863684960 -> 139890863685008
+	139890863685008 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">1.46</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.11</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">5.70</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">1.52</font></td></tr>
+                </table>
+            > color=black]
+	139890863685008 -> 139890863685200
+	139890863685200 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.15</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.02</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">8.56</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890863685200 -> 139890863685248
+	139890863685248 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">64</font></td></tr>
+                </table>
+            > color=black]
+	139890863685008 -> 139890865554336
+	139890865554336 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.15</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.02</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">9.04</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890865554336 -> 139890865555488
+	139890865555488 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">16</font></td></tr>
+                </table>
+            > color=black]
+	139890863685008 -> 139890865557408
+	139890865557408 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.17</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.02</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">8.24</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890865557408 -> 139890865557552
+	139890865557552 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">16</font></td></tr>
+                </table>
+            > color=black]
+	139890863685008 -> 139890865559088
+	139890865559088 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890863685008 -> 139890865559424
+	139890865559424 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890863684960 -> 139890865561824
+	139890865561824 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">1.02</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.10</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">4.64</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">1.92</font></td></tr>
+                </table>
+            > color=black]
+	139890865561824 -> 139890865563216
+	139890865563216 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.27</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.03</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">9.01</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890865563216 -> 139890865563408
+	139890865563408 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">0</font></td></tr>
+                </table>
+            > color=black]
+	139890865561824 -> 139890865564032
+	139890865564032 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.19</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.02</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">8.54</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890865564032 -> 139890865566240
+	139890865566240 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">48</font></td></tr>
+                </table>
+            > color=red]
+	139890865561824 -> 139890865567344
+	139890865567344 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.16</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.02</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">8.53</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890865567344 -> 139890865567776
+	139890865567776 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">16</font></td></tr>
+                </table>
+            > color=black]
+	139890865561824 -> 139890865567920
+	139890865567920 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.24</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.02</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">8.11</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890865567920 -> 139890865568256
+	139890865568256 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">32</font></td></tr>
+                </table>
+            > color=black]
+	139890865561824 -> 139890865567584
+	139890865567584 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.32</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.03</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">7.77</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890865567584 -> 139890865565520
+	139890865565520 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">16</font></td></tr>
+                </table>
+            > color=black]
+	139890863684960 -> 139890865553712
+	139890865553712 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.83</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.08</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">5.10</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">1.92</font></td></tr>
+                </table>
+            > color=black]
+	139890865553712 -> 139890865564464
+	139890865564464 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.16</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.02</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">8.62</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890865564464 -> 139890865563264
+	139890865563264 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">16</font></td></tr>
+                </table>
+            > color=black]
+	139890865553712 -> 139890865561920
+	139890865561920 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.08</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.01</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">9.76</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890865561920 -> 139890865561632
+	139890865561632 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">16</font></td></tr>
+                </table>
+            > color=black]
+	139890865553712 -> 139890865559760
+	139890865559760 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.16</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.02</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">8.15</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890865559760 -> 139890865559520
+	139890865559520 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">0</font></td></tr>
+                </table>
+            > color=black]
+	139890865553712 -> 139890865558368
+	139890865558368 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.17</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.02</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">8.69</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890865558368 -> 139890865557744
+	139890865557744 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">32</font></td></tr>
+                </table>
+            > color=black]
+	139890865553712 -> 139890865557504
+	139890865557504 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890863684960 -> 139890865555728
+	139890865555728 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">1.04</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.10</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">5.24</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">1.37</font></td></tr>
+                </table>
+            > color=black]
+	139890865555728 -> 139890865554864
+	139890865554864 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.34</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.03</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">8.23</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890865554864 -> 139890865554912
+	139890865554912 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890865555728 -> 139890865553904
+	139890865553904 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.22</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.02</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">8.88</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890865553904 -> 139890865553952
+	139890865553952 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890865555728 -> 139890867454544
+	139890867454544 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890865555728 -> 139890867454880
+	139890867454880 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.11</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.01</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">9.59</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890867454880 -> 139890867456560
+	139890867456560 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">32</font></td></tr>
+                </table>
+            > color=black]
+	139890865555728 -> 139890867457952
+	139890867457952 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.11</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.01</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">9.61</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890867457952 -> 139890867458000
+	139890867458000 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">96</font></td></tr>
+                </table>
+            > color=black]
+	139890863684960 -> 139890867460544
+	139890867460544 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.89</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.09</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">5.04</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">1.92</font></td></tr>
+                </table>
+            > color=black]
+	139890867460544 -> 139890867460784
+	139890867460784 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.15</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.02</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">9.49</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890867460784 -> 139890867460832
+	139890867460832 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">32</font></td></tr>
+                </table>
+            > color=black]
+	139890867460544 -> 139890867462944
+	139890867462944 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.13</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.01</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">9.53</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890867462944 -> 139890867462992
+	139890867462992 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">32</font></td></tr>
+                </table>
+            > color=black]
+	139890867460544 -> 139890867464768
+	139890867464768 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.16</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.02</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">9.60</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890867464768 -> 139890867465248
+	139890867465248 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">16</font></td></tr>
+                </table>
+            > color=black]
+	139890867460544 -> 139890867466880
+	139890867466880 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.16</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.02</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">8.85</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890867466880 -> 139890867466928
+	139890867466928 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">112</font></td></tr>
+                </table>
+            > color=black]
+	139890867460544 -> 139890867468560
+	139890867468560 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890863671616 -> 139890867455312
+	139890867455312 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">1.72</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.13</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">5.10</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">2.02</font></td></tr>
+                </table>
+            > color=black]
+	139890867455312 -> 139890867455552
+	139890867455552 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">1.42</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.11</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">5.34</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">1.92</font></td></tr>
+                </table>
+            > color=black]
+	139890867455552 -> 139890867456656
+	139890867456656 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.42</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.04</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">8.06</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890867456656 -> 139890867456704
+	139890867456704 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">16</font></td></tr>
+                </table>
+            > color=black]
+	139890867455552 -> 139890867457568
+	139890867457568 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">32</font></td></tr>
+                </table>
+            > color=black]
+	139890867455552 -> 139890867457904
+	139890867457904 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.30</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.03</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">8.89</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890867457904 -> 139890867458336
+	139890867458336 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">16</font></td></tr>
+                </table>
+            > color=black]
+	139890867455552 -> 139890867458624
+	139890867458624 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.18</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.02</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">7.97</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890867458624 -> 139890867459104
+	139890867459104 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890867455552 -> 139890867459968
+	139890867459968 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">0</font></td></tr>
+                </table>
+            > color=black]
+	139890867455312 -> 139890867461360
+	139890867461360 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">1.26</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.13</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">3.92</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">1.52</font></td></tr>
+                </table>
+            > color=black]
+	139890867461360 -> 139890867462032
+	139890867462032 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.23</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.02</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">9.02</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890867462032 -> 139890867461888
+	139890867461888 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">4</font></td></tr>
+                </table>
+            > color=black]
+	139890867461360 -> 139890867463040
+	139890867463040 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.25</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.03</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">8.98</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890867463040 -> 139890867463088
+	139890867463088 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">5</font></td></tr>
+                </table>
+            > color=black]
+	139890867461360 -> 139890867464624
+	139890867464624 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.28</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.03</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">9.08</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890867464624 -> 139890867464672
+	139890867464672 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890867461360 -> 139890867465872
+	139890867465872 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.40</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.04</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">9.16</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890867465872 -> 139890867465728
+	139890867465728 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890867461360 -> 139890867466832
+	139890867466832 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.32</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.03</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">7.97</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890867466832 -> 139890867467072
+	139890867467072 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">4</font></td></tr>
+                </table>
+            > color=black]
+	139890867455312 -> 139890867468416
+	139890867468416 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">1.33</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.11</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">5.54</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.72</font></td></tr>
+                </table>
+            > color=black]
+	139890867468416 -> 139890867468464
+	139890867468464 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.56</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.06</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">7.46</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890867468464 -> 139890867468896
+	139890867468896 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">4</font></td></tr>
+                </table>
+            > color=black]
+	139890867468416 -> 139890867469520
+	139890867469520 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">4</font></td></tr>
+                </table>
+            > color=black]
+	139890867468416 -> 139890867469808
+	139890867469808 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.26</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.03</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">8.11</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890867469808 -> 139890867470288
+	139890867470288 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">4</font></td></tr>
+                </table>
+            > color=black]
+	139890867468416 -> 139890867460256
+	139890867460256 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">4</font></td></tr>
+                </table>
+            > color=black]
+	139890867468416 -> 139890867460928
+	139890867460928 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.15</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.02</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">9.33</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890867460928 -> 139890867460976
+	139890867460976 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">16</font></td></tr>
+                </table>
+            > color=black]
+	139890867455312 -> 139890867461696
+	139890867461696 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.70</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.06</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">6.52</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.72</font></td></tr>
+                </table>
+            > color=black]
+	139890867461696 -> 139890867461936
+	139890867461936 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.29</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.03</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">8.64</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890867461936 -> 139890867462464
+	139890867462464 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890867461696 -> 139890867463328
+	139890867463328 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890867461696 -> 139890867463568
+	139890867463568 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.12</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.01</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">9.33</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890867463568 -> 139890867463856
+	139890867463856 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">16</font></td></tr>
+                </table>
+            > color=black]
+	139890867461696 -> 139890867465776
+	139890867465776 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890867461696 -> 139890867466064
+	139890867466064 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890867455312 -> 139890867470144
+	139890867470144 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.82</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.06</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">6.27</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.72</font></td></tr>
+                </table>
+            > color=black]
+	139890867470144 -> 139890867469952
+	139890867469952 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890867470144 -> 139890867469232
+	139890867469232 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.19</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.02</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">8.76</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890867469232 -> 139890867469280
+	139890867469280 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">4</font></td></tr>
+                </table>
+            > color=black]
+	139890867470144 -> 139890867468368
+	139890867468368 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890867470144 -> 139890867468512
+	139890867468512 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.25</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.02</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">8.60</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890867468512 -> 139890867467984
+	139890867467984 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890867470144 -> 139890867467120
+	139890867467120 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.21</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.02</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">8.92</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890867467120 -> 139890867465584
+	139890867465584 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890863671616 -> 139890867465008
+	139890867465008 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">4.73</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.20</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">3.64</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">2.96</font></td></tr>
+                </table>
+            > color=black]
+	139890867465008 -> 139890867464000
+	139890867464000 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.55</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.05</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">5.11</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">1.37</font></td></tr>
+                </table>
+            > color=black]
+	139890867464000 -> 139890867464480
+	139890867464480 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890867464000 -> 139890867464528
+	139890867464528 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.24</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.02</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">9.26</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890867464528 -> 139890867464048
+	139890867464048 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">4</font></td></tr>
+                </table>
+            > color=black]
+	139890867464000 -> 139890867463184
+	139890867463184 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.14</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.01</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">9.36</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890867463184 -> 139890867463232
+	139890867463232 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">16</font></td></tr>
+                </table>
+            > color=black]
+	139890867464000 -> 139890867462320
+	139890867462320 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.15</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.02</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">9.36</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890867462320 -> 139890867462368
+	139890867462368 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">16</font></td></tr>
+                </table>
+            > color=black]
+	139890867464000 -> 139890867461408
+	139890867461408 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.26</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.03</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">9.26</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890867461408 -> 139890867460400
+	139890867460400 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">16</font></td></tr>
+                </table>
+            > color=black]
+	139890867465008 -> 139890867459200
+	139890867459200 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">1.65</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.15</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">4.05</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">1.92</font></td></tr>
+                </table>
+            > color=black]
+	139890867459200 -> 139890867459248
+	139890867459248 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.24</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.02</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">8.37</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890867459248 -> 139890867459584
+	139890867459584 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">4</font></td></tr>
+                </table>
+            > color=red]
+	139890867459200 -> 139890867458048
+	139890867458048 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.28</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.03</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">8.21</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890867458048 -> 139890867458096
+	139890867458096 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890867459200 -> 139890867457280
+	139890867457280 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.39</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.04</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">9.08</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890867457280 -> 139890867456848
+	139890867456848 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">4</font></td></tr>
+                </table>
+            > color=red]
+	139890867459200 -> 139890867454208
+	139890867454208 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.37</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.04</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">9.04</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890867454208 -> 139890867454256
+	139890867454256 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">0</font></td></tr>
+                </table>
+            > color=black]
+	139890867459200 -> 139890867454688
+	139890867454688 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.48</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.05</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">8.49</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890867454688 -> 139890867454736
+	139890867454736 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">32</font></td></tr>
+                </table>
+            > color=black]
+	139890867465008 -> 139890867455888
+	139890867455888 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.61</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.05</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">7.42</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890867455888 -> 139890867455648
+	139890867455648 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.45</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.04</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">8.25</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890867455648 -> 139890867454304
+	139890867454304 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">2</font></td></tr>
+                </table>
+            > color=black]
+	139890867455888 -> 139890867455168
+	139890867455168 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">2</font></td></tr>
+                </table>
+            > color=black]
+	139890867455888 -> 139890867455456
+	139890867455456 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">2</font></td></tr>
+                </table>
+            > color=black]
+	139890867455888 -> 139890867455696
+	139890867455696 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">2</font></td></tr>
+                </table>
+            > color=black]
+	139890867455888 -> 139890867455744
+	139890867455744 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">2</font></td></tr>
+                </table>
+            > color=black]
+	139890867465008 -> 139890867456320
+	139890867456320 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.69</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.06</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">5.48</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">1.92</font></td></tr>
+                </table>
+            > color=black]
+	139890867456320 -> 139890867456368
+	139890867456368 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">4</font></td></tr>
+                </table>
+            > color=black]
+	139890867456320 -> 139890867456416
+	139890867456416 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.30</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.03</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">8.88</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890867456416 -> 139890867456464
+	139890867456464 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">16</font></td></tr>
+                </table>
+            > color=black]
+	139890867456320 -> 139890869793120
+	139890869793120 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.17</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.02</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">9.08</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890869793120 -> 139890869785392
+	139890869785392 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">48</font></td></tr>
+                </table>
+            > color=red]
+	139890867456320 -> 139890869796240
+	139890869796240 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.13</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.01</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">9.07</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890869796240 -> 139890869796576
+	139890869796576 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">16</font></td></tr>
+                </table>
+            > color=black]
+	139890867456320 -> 139890869785248
+	139890869785248 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890867465008 -> 139890869788224
+	139890869788224 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.89</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.07</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">6.10</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">1.92</font></td></tr>
+                </table>
+            > color=black]
+	139890869788224 -> 139890869789856
+	139890869789856 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.15</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.02</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">8.60</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890869789856 -> 139890869790096
+	139890869790096 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">24</font></td></tr>
+                </table>
+            > color=black]
+	139890869788224 -> 139890869794944
+	139890869794944 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.24</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.02</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">8.55</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890869794944 -> 139890869794992
+	139890869794992 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">0</font></td></tr>
+                </table>
+            > color=black]
+	139890869788224 -> 139890869795808
+	139890869795808 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">12</font></td></tr>
+                </table>
+            > color=black]
+	139890869788224 -> 139890869795856
+	139890869795856 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.21</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.02</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">8.10</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890869795856 -> 139890869796288
+	139890869796288 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">48</font></td></tr>
+                </table>
+            > color=red]
+	139890869788224 -> 139890869782032
+	139890869782032 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">12</font></td></tr>
+                </table>
+            > color=black]
+	139890863671616 -> 139890869783376
+	139890869783376 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">1.48</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.13</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">3.81</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">1.21</font></td></tr>
+                </table>
+            > color=black]
+	139890869783376 -> 139890869794320
+	139890869794320 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.14</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.01</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">9.13</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890869794320 -> 139890869795184
+	139890869795184 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890869794320 -> 139890869796480
+	139890869796480 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890869794320 -> 139890869796528
+	139890869796528 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890869794320 -> 139890869795712
+	139890869795712 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890869794320 -> 139890869795760
+	139890869795760 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890869783376 -> 139890869787888
+	139890869787888 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.17</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.01</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">9.15</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890869787888 -> 139890869791008
+	139890869791008 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890869787888 -> 139890869791824
+	139890869791824 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890869787888 -> 139890869789280
+	139890869789280 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890869787888 -> 139890869789328
+	139890869789328 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890869787888 -> 139890869788992
+	139890869788992 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890869783376 -> 139890869780544
+	139890869780544 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.26</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.02</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">8.68</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890869780544 -> 139890869786400
+	139890869786400 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890869780544 -> 139890869781168
+	139890869781168 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890869780544 -> 139890869781312
+	139890869781312 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890869780544 -> 139890869781120
+	139890869781120 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890869780544 -> 139890869781840
+	139890869781840 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890869783376 -> 139890869782560
+	139890869782560 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">2.18</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.11</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">7.12</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890869782560 -> 139890869783088
+	139890869783088 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">32</font></td></tr>
+                </table>
+            > color=black]
+	139890869782560 -> 139890869783136
+	139890869783136 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">32</font></td></tr>
+                </table>
+            > color=black]
+	139890869782560 -> 139890869783424
+	139890869783424 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">32</font></td></tr>
+                </table>
+            > color=black]
+	139890869782560 -> 139890869783568
+	139890869783568 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">32</font></td></tr>
+                </table>
+            > color=black]
+	139890869782560 -> 139890869783856
+	139890869783856 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.40</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.04</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">8.33</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890869783856 -> 139890869783904
+	139890869783904 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">32</font></td></tr>
+                </table>
+            > color=black]
+	139890869783376 -> 139890869785344
+	139890869785344 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.50</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.04</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">7.55</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.97</font></td></tr>
+                </table>
+            > color=black]
+	139890869785344 -> 139890869785728
+	139890869785728 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">0</font></td></tr>
+                </table>
+            > color=black]
+	139890869785344 -> 139890869785872
+	139890869785872 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">0</font></td></tr>
+                </table>
+            > color=black]
+	139890869785344 -> 139890869786160
+	139890869786160 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">1.18</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.12</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">6.12</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890869786160 -> 139890869786208
+	139890869786208 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890869785344 -> 139890869787312
+	139890869787312 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.61</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.06</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">8.14</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=black]
+	139890869787312 -> 139890869787360
+	139890869787360 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">0</font></td></tr>
+                </table>
+            > color=black]
+	139890869785344 -> 139890869788032
+	139890869788032 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">0.00</font></td></tr>
+                    <tr><td><font color="black">answer:</font></td><td><font color="black">8</font></td></tr>
+                </table>
+            > color=red]
+	139890867465008 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="orange">npe:</font></td><td><font color="orange">4.73</font></td></tr>
+                    <tr><td><font color="blue">lnpe:</font></td><td><font color="blue">0.20</font></td></tr>
+                    <tr><td><font color="green">disparity:</font></td><td><font color="green">3.64</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">2.96</font></td></tr>
+                </table>
+            > color=blue]
+	139890867455312 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="orange">npe:</font></td><td><font color="orange">1.72</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.13</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">5.10</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">2.02</font></td></tr>
+                </table>
+            > color=blue]
+	139890863671952 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">1.55</font></td></tr>
+                    <tr><td><font color="blue">lnpe:</font></td><td><font color="blue">0.13</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">4.01</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">1.34</font></td></tr>
+                </table>
+            > color=blue]
+	139890869783376 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">1.48</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.13</font></td></tr>
+                    <tr><td><font color="green">disparity:</font></td><td><font color="green">3.81</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">1.21</font></td></tr>
+                </table>
+            > color=blue]
+	139890869782560 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="orange">npe:</font></td><td><font color="orange">2.18</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.11</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">7.12</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=blue]
+	139890867459200 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="orange">npe:</font></td><td><font color="orange">1.65</font></td></tr>
+                    <tr><td><font color="blue">lnpe:</font></td><td><font color="blue">0.15</font></td></tr>
+                    <tr><td><font color="green">disparity:</font></td><td><font color="green">4.05</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">1.92</font></td></tr>
+                </table>
+            > color=blue]
+	139890867461360 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">1.26</font></td></tr>
+                    <tr><td><font color="blue">lnpe:</font></td><td><font color="blue">0.13</font></td></tr>
+                    <tr><td><font color="green">disparity:</font></td><td><font color="green">3.92</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">1.52</font></td></tr>
+                </table>
+            > color=blue]
+	139890869786160 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="orange">npe:</font></td><td><font color="orange">1.18</font></td></tr>
+                    <tr><td><font color="blue">lnpe:</font></td><td><font color="blue">0.12</font></td></tr>
+                    <tr><td><font color="green">disparity:</font></td><td><font color="green">6.12</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=blue]
+	139890863680496 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="orange">npe:</font></td><td><font color="orange">0.62</font></td></tr>
+                    <tr><td><font color="blue">lnpe:</font></td><td><font color="blue">0.06</font></td></tr>
+                    <tr><td><font color="black">disparity:</font></td><td><font color="black">8.53</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=blue]
+	139890867468464 [label=<
+                <table border="0" cellborder="1" cellspacing="0">
+                    <tr><td><font color="black">npe:</font></td><td><font color="black">0.56</font></td></tr>
+                    <tr><td><font color="black">lnpe:</font></td><td><font color="black">0.06</font></td></tr>
+                    <tr><td><font color="green">disparity:</font></td><td><font color="green">7.46</font></td></tr>
+                    <tr><td><font color="black">entropy:</font></td><td><font color="black">0.00</font></td></tr>
+                </table>
+            > color=blue]
+}
