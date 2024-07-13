@@ -81,7 +81,7 @@ class OpenAIModel():
         self.prompt_tokens = 0
 
         for _ in range(num_workers):
-            api_key = os.getenv("OPENAI_API_KEY", "").split(',')[_%num_workers]
+            api_key = os.getenv("OPENAI_API_KEYS", "").split(',')[_%num_workers]  # OPENAI_API_KEYS="api_key1,api_key2,api_key3"
             worker = OpenAIWorker(self.queue, model, api_key, max_tokens, rate_limit_per_min=9999999)
             worker.daemon = True
             worker.start()
