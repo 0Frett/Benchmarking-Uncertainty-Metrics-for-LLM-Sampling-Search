@@ -16,7 +16,6 @@ def update_tree_npe(node:Single_QA_Struct):
                 actions_values.append(logprobsum)
         assert len(actions_values) > 0
         node.npe = -np.mean(actions_values)
-    # print(node.state_trace)
     npe_per_node(node)
     
     for child in node.children:

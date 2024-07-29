@@ -1,7 +1,8 @@
 # Uncertainty Estimation in LLM Reasoning
-### version
-#### |-> v1(answer sampling)
-#### |-> v2(question perturbation & answer sampling)
+## version info
+#### |-> single-step(question perturbation & answer sampling)
+#### |-> v1(multi-step, answer sampling)
+#### |-> v2(multi-step, question perturbation & answer sampling)
 ### files
 #### |-> use inference.py to generate whole tree
 #### |-> use calculate_uncertainty.py to calculate uncertainty of each nodes
