@@ -55,20 +55,6 @@ def update_tree_top2disparity(node:Single_QA_Struct):
     for child in node.children:
         update_tree_top2disparity(child) 
 
-def update_tree_se(node):
-    pass
-
-def update_tree_spuq(node):
-    pass
-
-def update_tree_verbal_confidence(node):
-    pass
-
-def update_tree_intra_sample_score(node):
-    pass
-
-def update_tree_fidelity_confidence(node):
-    pass
 
 def calculate_entropy(values:list):
     if len(values) == 0:
@@ -77,8 +63,6 @@ def calculate_entropy(values:list):
     total_count = len(values)
     value_counts = {}
     for value in values:
-        # if value == True:
-        #     print("yes")
         if value in value_counts:
             value_counts[value] += 1
         else:
@@ -243,11 +227,6 @@ if __name__ == '__main__':
         update_tree_npe(node=root)
         update_tree_lnpe(node=root)
         update_tree_top2disparity(node=root)
-        # update_tree_se(node=root)
-        # update_tree_spuq(node=root)
-        # update_tree_verbal_confidence(node=root)
-        # update_tree_intra_sample_score(node=root)
-        # update_tree_fidelity_confidence(node=root)
         update_tree_ensemble_approx_correctness_uncertainty(root=root)
         update_tree_ensemble_approx_answer_uncertainty(root=root)
 

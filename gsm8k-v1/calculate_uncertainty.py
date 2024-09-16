@@ -2,6 +2,7 @@ import numpy as np
 import pickle
 import math
 import re
+from llms_parallel import OpenAIModel
 
 def calculate_npe(node):
     if not node.children:
@@ -58,8 +59,6 @@ def calculate_top2disparity(node):
     for child in node.children:
         calculate_top2disparity(child)
 
-def calculate_se(node):
-    pass
 
 def calculate_answer_total_uncertainty(root):
     def calculate_entropy(values:list):
@@ -131,6 +130,7 @@ def calculate_correctness_total_uncertainty(root):
             correctness = 1 if node.correct else 0
             node.leaf_values = [correctness]
             node.correctness_entropy = calculate_entropy(node.leaf_values)
+            node.correct_ratio = node.leaf_values.count(1)/len(node.leaf_values)
             return [correctness]
 
         all_leaf_values = []
@@ -139,6 +139,7 @@ def calculate_correctness_total_uncertainty(root):
             all_leaf_values.extend(child_leaf_values)
             
         node.leaf_values = all_leaf_values.copy()
+        node.correct_ratio = node.leaf_values.count(1)/len(node.leaf_values)
         node.correctness_entropy = calculate_entropy(node.leaf_values)
 
         return all_leaf_values
@@ -158,7 +159,7 @@ def save_tree(root, filename):
 if __name__ == '__main__':
     for idx in [8, 39, 74, 107, 119, 141, 144, 154, 161, 177, 211, 214, 218]:#,
         print(f"============{idx}===============")
-        filename = f'./output_trees/Q{idx}/tree_2/tree.pkl'
+        filename = f'./output_trees/Q{idx}/tree_1/tree.pkl'
         root = load_tree(filename=filename)
         calculate_npe(node=root)
         calculate_lnpe(node=root)

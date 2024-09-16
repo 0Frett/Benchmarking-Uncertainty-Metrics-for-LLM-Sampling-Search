@@ -5,8 +5,14 @@ import re
 import os
 from qa_struct import Single_Step_QA_Struct
 from typing import Optional, Union, Dict, List
-from llms_parallel import OpenAIModel_parallel
+from llms_parallel import OpenAIModel_parallel, LlamaModel
 import logging
+import openai
+from collections import Counter
+import itertools
+
+openai_client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+# from hard_qidxs import *
 logger = logging.getLogger()
 
 def npe_per_node(node:Single_Step_QA_Struct):
@@ -80,14 +86,43 @@ def verbal_confidence_per_node(node:Single_Step_QA_Struct, model:OpenAIModel_par
 def se_per_node(node:Single_Step_QA_Struct):
     pass
 
-def spuq_per_node(node:Single_Step_QA_Struct):
-    pass
 
-def intra_sample_score_per_node(node:Single_Step_QA_Struct):
-    pass
+def spuq_inter_sample(node:Single_Step_QA_Struct):
+    # weights
+    originalq_vec = openai_client.embeddings.create(input=[node.original_q], model="text-embedding-3-small").data[0].embedding
+    perturbqs = []
+    for q_node in node.qa_matches:
+        perturbqs.append(q_node.question)
+    perturbq_vecs = []
+    for vec in openai_client.embeddings.create(input=perturbqs, model="text-embedding-3-small").data:
+        perturbq_vecs.append(vec.embedding)
+    originalq_vec = np.array(originalq_vec)
+    perturbq_vecs = np.array(perturbq_vecs)
+    similarities = np.dot(perturbq_vecs, originalq_vec) / (np.linalg.norm(perturbq_vecs, axis=1) * np.linalg.norm(originalq_vec))
 
-def fidelity_confidence_per_node(node:Single_Step_QA_Struct):
-    pass
+    # most_common_element = Counter(elements).most_common(1)[0][0]
+    action_values = []
+    for q_node in node.qa_matches:
+        answers = []
+        for a_node in q_node.children:
+            answers.append(a_node.answer)
+        most_common_element = Counter(answers).most_common(1)[0][0]
+        action_values.append(most_common_element)
+    
+    weight_dict = dict(zip(action_values, similarities))
+    permutations = list(itertools.permutations(action_values, 2))
+    permutations_with_weights = [(a, b, weight_dict[a]) for a, b in permutations]
+    denominator = 0
+    numerator = 0
+    for item in permutations_with_weights:
+        a, b, w_a = item[0], item[1], item[2]
+        if a == b:
+            numerator += w_a
+        denominator += w_a
+    
+    node.inter_sample_score = numerator/denominator
+    print(node.inter_sample_score)
+
 
 def calculate_entropy(values:list):
     if len(values) == 0:
@@ -204,24 +239,29 @@ def save_node(root, filename):
         pickle.dump(root, f)
 
 if __name__ == '__main__':
-    llm = OpenAIModel_parallel(
-        model='gpt-3.5-turbo',
-        max_tokens=10,
-        temperature=0.5,
-    )
-    qindices = [int(re.search(r'\d+', s).group()) for s in os.listdir('./output_nodes')][500:]
-    node_nums = [i for i in range(1,6)]
+    # llm = OpenAIModel_parallel(
+    #     model='gpt-3.5-turbo',
+    #     max_tokens=10,
+    #     temperature=0.5,
+    # )
+    # llm = LlamaModel(
+    #     model='meta-llama/Meta-Llama-3.1-8B-Instruct',
+    #     max_tokens=10,
+    #     temperature=0.5,
+    # )
+    qindices = [int(re.search(r'\d+', s).group()) for s in os.listdir('./output_nodes/gpt-3.5-turbo/')]
+    # qindices = medium_qs
+    node_nums = [i for i in range(1,2)]
     for idx in qindices:
         for num in node_nums:
-            try:
-                print(f"============{idx}-{num}===============")
-                filename = f'./output_nodes/Q{idx}/node_{num}/node.pkl'
-                root = load_node(filename=filename)
-                verbal_confidence_per_node(node=root, model=llm)
-                save_node(root=root, filename=filename)
+            print(f"============{idx}-{num}===============")
+            filename = f'./output_nodes/gpt-3.5-turbo/Q{idx}/node_{num}/node.pkl'
+            root = load_node(filename=filename)
+            spuq_inter_sample(node=root)
+            save_node(root=root, filename=filename)
             # try:
             #     print(f"============{idx}-{num}===============")
-            #     filename = f'./output_nodes/Q{idx}/node_{num}/node.pkl'
+            #     filename = f'./output_nodes/llama/Q{idx}/node_{num}/node.pkl'
             #     root = load_node(filename=filename)
             #     npe_per_node(node=root)
             #     lnpe_per_node(node=root)
@@ -230,8 +270,8 @@ if __name__ == '__main__':
             #     ensemble_approx_answer_uncertainty_per_node(node=root)
             #     verbal_confidence_per_node(node=root, model=llm)
             #     save_node(root=root, filename=filename)
-            except:
-                print("fail")
-                continue
+            # except:
+            #     print("fail")
+            #     continue
 
 

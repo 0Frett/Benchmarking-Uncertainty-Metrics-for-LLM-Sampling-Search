@@ -5,17 +5,20 @@ import copy
 import pickle
 import os
 from collections import Counter
-from llms_parallel import OpenAIModel_parallel
+from llms_parallel import OpenAIModel_parallel, LlamaModel
 from qa_struct import ReasoningNode
-from utils import Single_Step_GSM8kUtils, Single_Step_FactUtils
+from utils import Single_Step_GSM8kUtils
 from tqdm import tqdm
 import random
+import re
+#  from hard_qidxs import *
 
 class Single_Step_gsm8k_Inference():
     def __init__(
         self, 
         prompt_pool:Dict[str, List[str]],
-        language_model:Union[OpenAIModel_parallel],
+        language_model:Union[OpenAIModel_parallel, LlamaModel],
+        model_name:str,
         sampling_num:int,
         perturb_num:int,
     ):
@@ -24,6 +27,7 @@ class Single_Step_gsm8k_Inference():
         self.language_model = language_model
         self.sampling_num = sampling_num
         self.perturb_num = perturb_num
+        self.model_name = model_name
 
     def sample_prompt(self, num_shot:int = 4):
         ret = copy.deepcopy(self.prompt_pool)
@@ -64,8 +68,8 @@ class Single_Step_gsm8k_Inference():
             ).run_algo()
             
             # save node
-            os.makedirs('./output_nodes', exist_ok=True)
-            save_dir = f'./output_nodes/Q{start_idx+i}'
+            os.makedirs(f'./output_nodes/{self.model_name}', exist_ok=True)
+            save_dir = f'./output_nodes/{self.model_name}/Q{start_idx+i}'
             os.makedirs(save_dir, exist_ok=True)
             save_dir += f'/node_{len(os.listdir(save_dir))+1}'
             os.makedirs(save_dir, exist_ok=True)
@@ -76,30 +80,40 @@ class Single_Step_gsm8k_Inference():
 
 if __name__ == '__main__':
     # args
-    llm_name = 'gpt-3.5-turbo'
     sampling_num = 10
     perturb_num = 5
     temperature = 0.7
     print(f'sampling_num:{sampling_num}\nperturb_num:{perturb_num}\ntemperature:{temperature}')
-    q_idx = [i for i in range(500, 600)] #, 39, 74, 107, 119, 141, 144, 154, 161, 177, 211, 214, 218
+    total_q_idx = [int(re.search(r'\d+', s).group()) for s in os.listdir('./output_nodes/gpt-3.5-turbo/')]
+    have_idx = [int(re.search(r'\d+', s).group()) for s in os.listdir('./output_nodes/llama/')]
+    q_idx = random.sample(total_q_idx, 300)
+    # [i for i in range(500, 600)] #, 39, 74, 107, 119, 141, 144, 154, 161, 177, 211, 214, 218
     with open('./prompts/prompt_pool.json') as f:
         prompt_pool = json.load(f)
 
-    llm = OpenAIModel_parallel(
-        model=llm_name,
-        max_tokens=500,
+    # llm = OpenAIModel_parallel(
+    #     model='gpt-3.5-turbo',
+    #     max_tokens=500,
+    #     temperature=temperature,
+    # )
+    
+    llm = LlamaModel(
+        model='meta-llama/Meta-Llama-3.1-8B-Instruct',
+        max_tokens=200,
         temperature=temperature,
     )
 
     for idx in q_idx:
-        Single_Step_gsm8k_Inference(
-            prompt_pool=prompt_pool, 
-            language_model=llm, 
-            sampling_num=sampling_num,
-            perturb_num=perturb_num
-        ).run_inference(start_idx=idx, end_idx=idx+1)
+        if idx not in have_idx:
+            Single_Step_gsm8k_Inference(
+                prompt_pool=prompt_pool, 
+                language_model=llm,
+                model_name='llama',
+                sampling_num=sampling_num,
+                perturb_num=perturb_num
+            ).run_inference(start_idx=idx, end_idx=idx+1)
     
-    llm.usage()
+    # llm.usage()
 
 
 

@@ -4,40 +4,17 @@ import math
 from typing import Optional, Union, Dict, List
 from abc import ABC, abstractmethod
 
-class Single_Step_UtilsBase(ABC):
-    def __init__(
-        self, 
-        prompt_pool:Dict[str, List[str]], 
-        language_model:Union['OpenAIModel_parallel', 'LlamaModel']
-    ):
-        self.prompt_pool = prompt_pool
-        self.language_model = language_model
 
-    @abstractmethod
-    def judge_answer(self, answer:Union[str, int], truth:Union[str, int]):
-        ...
-
-    @abstractmethod
-    def retrieve_answer(self, output:str):
-        ...
-
-    @abstractmethod
-    def retrieve_true_answer(self, answer:str):
-        ...
-
-    @abstractmethod
-    def get_perturbed_output(self, input:str, n_output:int):
-        ...
-
-
-class Single_Step_GSM8kUtils(Single_Step_UtilsBase):
+class Single_Step_GSM8kUtils():
     def __init__(
         self, 
         prompt_pool:Dict[str, List[str]], 
         language_model:Union['OpenAIModel_parallel', 'LlamaModel'], 
         problem:str
     ):
-        super().__init__(prompt_pool, language_model)
+        # super().__init__(prompt_pool, language_model)
+        self.prompt_pool = prompt_pool
+        self.language_model = language_model
         self.question = problem
         self.n_shots = len(self.prompt_pool['interactive_examples'])
         with io.StringIO() as f:
@@ -85,6 +62,3 @@ class Single_Step_GSM8kUtils(Single_Step_UtilsBase):
         print(gen_output.text)
 
         return gen_output.text, gen_output.log_prob
-
-class Single_Step_FactUtils(Single_Step_UtilsBase):
-    pass

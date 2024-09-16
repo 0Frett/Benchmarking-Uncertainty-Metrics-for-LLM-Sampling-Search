@@ -82,17 +82,13 @@ class GSM8kUtils(UtilsBase):
     def get_perturbed_output(self, input:str, n_output:int):
         model_input = self.prompt_pool['paraphrase_prompt'].format(text=input, few_shot_examples=self.prompt_pool['paraphrase_examples'])
         gen_output = self.language_model.generate(prompt=model_input, num_return_sequences=n_output)
-        print("======== pertubed-input ==========")
-        print(model_input)
-        # print(gen_output.text)
-        # text_outputs = []
-        # for output in gen_output.log_prob:
-        #     text, logprob = self.extract_first_subanswer(output)
-        #     text_outputs.append(text)
+        print(gen_output.text)
+        text_outputs = []
+        for output in gen_output.log_prob:
+            text, logprob = self.extract_first_subanswer(output)
+            text_outputs.append(text)
         text_outputs = [output.strip() for output in gen_output.text]
-        print("=========== perturbed output =========")
-        print(text_outputs)
-        print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+
         return text_outputs
 
     def judge_terminate(self, state_trace:List['SubResult']):
@@ -142,11 +138,6 @@ class GSM8kUtils(UtilsBase):
                 
             model_input = f.getvalue()
         
-        # print(f"=========== state trace ====================")
-        # print(state_trace)
-        # print(f"=========== get action input ====================")
-        # print(model_input)
-        # print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
         text_outputs = []
         tokens_prob = []
         gen_output = self.language_model.generate(prompt=model_input, num_return_sequences=n_actions)
@@ -159,11 +150,5 @@ class GSM8kUtils(UtilsBase):
         if at_depth_limit:
             text_outputs = [self.prompt_pool["overall_question_prefix"] + ' ' + output for output in text_outputs]
         
-        # print(f"=========== get action output ====================")
-        # print(text_outputs)
-        # print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 
         return text_outputs, tokens_prob
-
-class FactUtils(UtilsBase):
-    pass

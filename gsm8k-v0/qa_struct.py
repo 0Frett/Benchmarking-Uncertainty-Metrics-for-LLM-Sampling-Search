@@ -49,7 +49,7 @@ class ReasoningNode:
         self,
         sampling_num:int,
         perturb_num:int,
-        utils:Union['Single_Step_GSM8kUtils', 'Single_Step_FactUtils'],
+        utils:Union['Single_Step_GSM8kUtils'],
         truth:Union[int, str, float],
     ):
         self.sampling_num = sampling_num

@@ -12,13 +12,13 @@ def get_all_metric_single_tree_df(root):
     def collect_all_metrics(node, metrics:list):
         if len(node.children) <= 1:
             return
-        metrics.append([node.npe, node.lnpe, node.top2disparity, node.answer_entropy, node.correctness_entropy])
+        metrics.append([node.npe, node.lnpe, node.top2disparity, node.answer_entropy, node.correctness_entropy, node.correct_ratio])
         for child in node.children:
             collect_all_metrics(child, metrics)
         
     metrics = []
     collect_all_metrics(root, metrics)
-    df = pd.DataFrame(metrics, columns=['npe', 'lnpe', 'top2disparity', 'answer_entropy', 'correctness_entropy'])
+    df = pd.DataFrame(metrics, columns=['npe', 'lnpe', 'top2disparity', 'answer_entropy', 'correctness_entropy', 'correct_ratio'])
 
     return df
 
@@ -36,7 +36,7 @@ def get_level_metric_single_tree_dfs(root):
             if len(level_dfs) <= level:
                 level_dfs.append([])
 
-            level_dfs[level].append((node.npe, node.lnpe, node.top2disparity, node.answer_entropy, node.correctness_entropy))
+            level_dfs[level].append((node.npe, node.lnpe, node.top2disparity, node.answer_entropy, node.correctness_entropy, node.correct_ratio))
 
             for child in node.children:
                 if len(child.children) <= 1:
@@ -46,7 +46,7 @@ def get_level_metric_single_tree_dfs(root):
         # Convert each level's data to a DataFrame
         level_dataframes = []
         for level, data in enumerate(level_dfs):
-            df = pd.DataFrame(data, columns=['npe', 'lnpe', 'top2disparity', 'answer_entropy', 'correctness_entropy'])
+            df = pd.DataFrame(data, columns=['npe', 'lnpe', 'top2disparity', 'answer_entropy', 'correctness_entropy', 'correct_ratio'])
             level_dataframes.append(df)
 
         return level_dataframes

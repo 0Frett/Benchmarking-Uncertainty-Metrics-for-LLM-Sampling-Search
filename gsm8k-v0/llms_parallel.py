@@ -118,8 +118,59 @@ class OpenAIModel_parallel():
             cost = self.completion_tokens / 1000 * 0.03 + self.prompt_tokens / 1000 * 0.015
         print(f"model: {self.model}, completion_tokens: {self.completion_tokens}, prompt_tokens: {self.prompt_tokens}, cost: {cost}")
 
+class LlamaModel():
+    def __init__(self, model, temperature:float, max_tokens: int = 500):
+        self.model = model
+        self.max_tokens = max_tokens
+        self.temperature = temperature
+        self.client = openai.OpenAI(
+            base_url="http://140.112.31.182:8000/v1",
+            api_key=os.getenv("LLAMA_API_KEY", ""),
+        )
+    
+    def generate(self,
+        prompt: str,
+        num_return_sequences: int = 1) -> GenerateOutput:
+
+        response = self.client.chat.completions.create(
+            model=self.model,
+            messages=[
+                {"role": "user", "content": f"{prompt}"}
+            ],
+            max_tokens=self.max_tokens,
+            temperature=self.temperature,
+            n=num_return_sequences,
+            logprobs=True,
+            top_logprobs=2,
+        )
+
+        # print(completion.choices[0].message)
+        # print(completion.choices[0].logprobs)
+        
+        log_probs = [choice.logprobs.content for choice in response.choices]
+        content_match = []
+        for content in log_probs:
+            token_match = []
+            for tokenLogprob in content:
+                token = tokenLogprob.token
+                top1Logprob = tokenLogprob.top_logprobs[0].logprob
+                top2Logprob = tokenLogprob.top_logprobs[1].logprob
+                token_match.append({'token': token, 
+                                    'top1Logprob': top1Logprob, 
+                                    'top2Logprob': top2Logprob})
+            content_match.append(token_match)
+        texto = [choice.message.content for choice in response.choices]
+
+        return GenerateOutput(text=texto, log_prob=content_match)
+
+
+
+
 if __name__ == '__main__':
-    model = OpenAIModel_parallel(model='gpt-3.5-turbo', temperature=0.7, max_tokens=100)
-    gen = model.generate(prompt='How to cook steak', num_return_sequences=6)
+    # model = OpenAIModel_parallel(model='gpt-3.5-turbo', temperature=0.7, max_tokens=100)
+    # gen = model.generate(prompt='How to cook steak', num_return_sequences=6)
+
+    model = LlamaModel(model='meta-llama/Meta-Llama-3.1-8B-Instruct',temperature=0.5, max_tokens=10)
+    gen = model.generate(prompt='How are you?', num_return_sequences=2)
     print(gen.text)
-    #print(gen.log_prob)
+    print(gen.log_prob)
