@@ -23,6 +23,7 @@ which reflects output confidence and diversity,rather than Correctness Uncertain
 
 ### Additional Scripts
 - Use `hard_qs.py` to select difficult questions based on reasoning and decomposition steps.
+- Download Bechmark Datasets (the output trees) using `benchmark_trees_download.sh`
 
 ## References
 The structure and certain functions in this project were inspired by [llm-reasoner](https://github.com/maitrix-org/llm-reasoners), created by [Ber666].
