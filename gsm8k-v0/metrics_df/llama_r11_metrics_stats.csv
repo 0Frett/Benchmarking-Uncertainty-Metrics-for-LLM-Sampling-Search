@@ -1,2 +1,0 @@
-npe,lnpe,top2disparity,inter_sample,answer_total,answer_aleatoric,answer_epistemic,correctness_total,correctness_aleatoric,correctness_epistemic,verb_confidence,verb_predict_acc,correct_ratio
-58.65891400436486,0.29517854379818276,-8.032736367309301,0.6035164458496426,2.250707863185276,1.7669559756502735,0.4837518875350024,0.0,0.0,0.0,0.54,0.46,0.0

@@ -1,29 +1,13 @@
-# Benchmarking Large Language Model Uncertainty for Prompt Optimization
-Prompt optimization algorithms for Large Language Models (LLMs) excel in multi-step reasoning but still lack effective uncertainty estimation. This paper introduces a benchmark dataset to evaluate uncertainty metrics, focusing on Answer, Correctness, Aleatoric, and Epistemic Uncertainty. Through analysis of models like GPT-3.5-Turbo and Meta-Llama-3.1-8B-Instruct, we show that current metrics align more with Answer Uncertainty,
-which reflects output confidence and diversity,rather than Correctness Uncertainty, highlighting the need for improved metrics that are optimization-objective-aware to better guide prompt optimization.
+# Benchmarking Uncertainty Metrics for LLM Sampling-based Search
+Sampling-based search methods, such as Chain of Thought (CoT) and Tree of Thought (ToT), improve reasoning through single- or multi-step processes. These methods can be improved by search algorithms like MCTS and Bandit, which depend on accurate uncertainty estimation. However, existing LLM uncertainty metrics, focused on token-level likelihoods or verbalized confidence, don’t fully address the needs of search tasks. In this work, we introduce four types of uncertainties crucial for search and propose a benchmarking pipeline to evaluate how current metrics quantifies these uncertainties in serach scenarios. Our experiments show that current uncertainty metrics perform inconsistently across different models and tasks, emphasizing further research for optimization-aware metrics tailored to search scenarios.
 
-![Framework](./display_imgs/workflow.png)
-*Figure 1: A reliable uncertainty quantification metric targeting correctness in a binary classification problem exhibits 50% accuracy when uncertainty is at its highest. In contrast, most existing uncertainty quantification metrics are designed to capture confidence (diversity) and fail to be sufficient for prompt optimization tasks.*
+![Framework](./Images/workflow.png)
 
-![Scatter Plot](./display_imgs/gpt-3.5-turbo_au-cu_scatter.png)
-*Figure 2: The benchmark dataset evaluates the uncertainty of prompt optimization for multi-step reasoning. The construction workflow consists of three steps for each level:  
-1. Randomly perturb the input question  
-2. Randomly sample model output using temperature  
-3. Calculate uncertainty using different metrics*
 
-## Version Information
-- **v0**: Single-step reasoning + question perturbation + answer sampling / Metrics: NPE, LNPE, Top-DISP, Intra  
-- **v1**: Multi-step reasoning + answer sampling / Metrics: NPE, LNPE, Top-DISP  
-- **v2**: Multi-step reasoning + question perturbation + answer sampling / Metrics: NPE, LNPE, Top-DISP  
+## How to Run
+1. First `cd <folder>`.
+2. Run `inference.py` to generate benchmarking trees for each question. Token-logprobs and text will be saved in the answer nodes of each tree.
+2. Run `calculate_uncertainty.py` to calculate uncertainty metrics (NPE, LNPE, Semantic-Entropy, Top-Disp, VerbConf, lexical-similarity) and target uncertainty values (AnsU, CU, AU, EU) for each tree.
+3. Run `eval_uncertainty.py` to calculate correlation between uncertainty metrics and target uncertainties. Output dataframes: mean_correlation, percentile_correlation(2.5,97.5), p-value
 
-## Instructions for Each Task
-1. Run `inference.py` to generate tree structure instances.
-2. Run `calculate_uncertainty.py` to calculate uncertainty metrics for each tree instance and generate the benchmark dataset.
-3. Run `eval_uncertainty.py` to generate a dataframe containing uncertainty metrics and ground truth uncertainty for all tree instances.
-
-### Additional Scripts
-- Use `hard_qs.py` to select difficult questions based on reasoning and decomposition steps.
-- Download Bechmark Datasets (the output trees) using `benchmark_trees_download.sh`
-
-## References
-The structure and certain functions in this project were inspired by [llm-reasoner](https://github.com/maitrix-org/llm-reasoners), created by [Ber666].
+![Correlation-Map](./Images/corrmap_all_12.png)

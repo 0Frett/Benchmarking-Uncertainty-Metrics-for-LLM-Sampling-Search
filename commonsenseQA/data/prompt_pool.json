@@ -1,0 +1,7 @@
+{
+  "instruction": "Answer the following single choice question and show your thoughts in a short paragraph, ending with \"The answer to the question is (A/B/C/D/E)\". ",
+  "interactive_examples": [
+ ],
+  "question_prefix": "Question : {question}\n Solution :",
+  "paraphrase_prompt": "You will be given a question. Your task is to rephrase it clearly while preserving its original meaning. \nOriginal Question: {text} \nRephrase Output:"
+}

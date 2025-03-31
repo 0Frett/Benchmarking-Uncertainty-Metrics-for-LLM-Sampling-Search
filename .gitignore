@@ -10,4 +10,7 @@ envv/
 output_nodes/
 output_trees/
 models--meta-llama--Meta-Llama-3.1-8B-Instruct/
-data/
+multi-step/
+guide_sampling/
+node_stats/
+MATH/
