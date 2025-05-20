@@ -14,3 +14,9 @@ multi-step/
 guide_sampling/
 node_stats/
 MATH/
+commonsenseQA/
+gsm8k/
+math/
+strategyQA/
+data/
+Images/

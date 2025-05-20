@@ -1,13 +1,30 @@
-# Benchmarking Uncertainty Metrics for LLM Sampling-based Search
-Sampling-based search methods, such as Chain of Thought (CoT) and Tree of Thought (ToT), improve reasoning through single- or multi-step processes. These methods can be improved by search algorithms like MCTS and Bandit, which depend on accurate uncertainty estimation. However, existing LLM uncertainty metrics, focused on token-level likelihoods or verbalized confidence, don’t fully address the needs of search tasks. In this work, we introduce four types of uncertainties crucial for search and propose a benchmarking pipeline to evaluate how current metrics quantifies these uncertainties in serach scenarios. Our experiments show that current uncertainty metrics perform inconsistently across different models and tasks, emphasizing further research for optimization-aware metrics tailored to search scenarios.
+# Benchmarking Uncertainty Metrics for LLM Target-Aware Search
+LLM search methods, such as Chain of Thought (CoT) and Tree of Thought (ToT), enhance LLM reasoning by exploring multiple reasoning paths. When combined with search algorithms like MCTS and Bandit methods, their effectiveness relies heavily on uncertainty estimation to prioritize paths that align with specific search objectives. \emph{However, it remains unclear whether existing LLM uncertainty metrics adequately capture the diverse types of uncertainty required to guide different search objectives.}
+In this work, we introduce a framework for target-aware uncertainty benchmarking, identifying four distinct uncertainty types: Answer, Correctness, Aleatoric, and Epistemic Uncertainty. Each type serves different optimization goals in search. Our experiments demonstrate that current metrics often align with only a subset of these uncertainty types, limiting their effectiveness for objective-aligned search in some cases. These findings highlight the need for additional search-aware uncertainty estimators that can adapt to various optimization goals in LLM search. 
 
-![Framework](./Images/workflow.png)
+![Framework](./figures/workflow.png)
 
 
 ## How to Run
-1. First `cd <folder>`.
-2. Run `inference.py` to generate benchmarking trees for each question. Token-logprobs and text will be saved in the answer nodes of each tree.
-2. Run `calculate_uncertainty.py` to calculate uncertainty metrics (NPE, LNPE, Semantic-Entropy, Top-Disp, VerbConf, lexical-similarity) and target uncertainty values (AnsU, CU, AU, EU) for each tree.
-3. Run `eval_uncertainty.py` to calculate correlation between uncertainty metrics and target uncertainties. Output dataframes: mean_correlation, percentile_correlation(2.5,97.5), p-value
 
-![Correlation-Map](./Images/corrmap_all_12.png)
+---
+#### Generate benchmarking trees for each question. Token-logprobs and text will be saved in the answer nodes of each tree.
+```bash
+bash generate_estimator_tree.sh
+```
+
+---
+#### Calculate uncertainty metrics and target uncertainty values for each tree.
+```bash
+bash calculate_uncertainty_estimate.sh
+```
+
+---
+#### Evaluate dependencies between uncertainty metrics and target uncertainties
+```bash
+bash eval_estimator_dependency.sh
+bash eval_correctness_dependency.sh
+```
+
+
+![Dependencies](./figures/rankcorr.png)
